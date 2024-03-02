@@ -71,6 +71,28 @@ function PortFolio() {
           alt="not-found"
         />
       </div>
+      {/* ======================= */}
+      <div className=" ">
+  <div className=" flex justify-evenly   ">
+    <div className="flex flex-col items-center mx-4">
+      <h1 className=" font-extrabold text-2xl  w-36 h-12">Brainstorm</h1>
+      <p className="w-36 h-20">Our team will dive deep into your business, researching your industry, target market, and competitors to generate exciting design ideas.</p>
+    </div>
+    <div className="flex flex-col items-center mx-4">
+      <h1 className="  font-extrabold text-2xl  w-36 h-12">Sketch</h1>
+      <p className="w-36 h-20">The team will then draft sketches of the best ideas from the brainstorming session to expand and develop design concepts.</p>
+    </div>
+    <div className="flex flex-col items-center mx-4">
+      <h1 className="  font-extrabold text-2xl w-36 h-12">Create</h1>
+      <p className="w-36 h-20">Only after our designers are satisfied with the sketches do we move them to the digital realm. It’s here that your new logo really comes to life.</p>
+    </div>
+    <div className="flex flex-col items-center mx-4">
+      <h1 className="  font-extrabold text-2xl w-36 h-12">Refine</h1>
+      <p className="w-36 h-20">Once the designs have been refined to perfection, you’ll have the opportunity to see the fruits of this detail-oriented process.</p>
+    </div>
+  </div>
+</div>
+
     </>
   );
 }
