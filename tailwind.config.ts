@@ -20,6 +20,9 @@ const config: Config = {
       custom_color:{
         100:'#35C5F3',
         101:'#FFF9F4',
+        p:'#787878',
+        bgOrng:'#FFF9F4',
+        why:'#F3FBFE',
       }
     }
     },

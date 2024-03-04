@@ -55,11 +55,13 @@ function Navbar({ className }: { className?: string }) {
             </Menu>
         
             </div>
-            <div className="text-white  mt-5">
-                <link rel="stylesheet" href="#Contact" /> Contact
+            <div className="text-black  mt-5">
+            <Link href="#contact">
+                    <MenuItem setActive={setActive} active={active} item="Contact" />  
+                </Link>
             </div>
             {/* after navbar , right button */}
-            <div className=" text-white flex   items-center "><button  className=" rounded-full w-60 bg-orange-600 border p-2">BEGIN YOUR ORDER </button></div>
+            <div className=" text-white flex  items-center "><button  className="  hover:bg-white hover:text-black hover:border-2 hover:border-solid hover:border-orange-600 rounded-full w-60 bg-orange-600 border p-2">BEGIN YOUR ORDER </button></div>
 
             
             </div>
